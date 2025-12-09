@@ -154,18 +154,19 @@ header nav a {
 @media (max-width: 600px) {
 
     .project-content {
-        padding: 0 15px 80px;
-        text-align: center;   /* CENTRALIZA TUDO */
+        padding: 0 15px 60px;
+        text-align: center;
     }
 
     .project-content h2 {
-        font-size: 2rem;      /* título menor no mobile */
-        margin-bottom: 25px;
+        font-size: 1.6rem;   /* antes 2rem */
+        margin-bottom: 20px;
     }
 
     .project-content p {
-        font-size: 1rem;      /* texto proporcional */
-        margin-bottom: 25px;
+        font-size: 0.85rem;  /* antes 1rem */
+        margin-bottom: 20px;
+        line-height: 1.4;    /* deixa mais agradável de ler */
     }
 }
 
